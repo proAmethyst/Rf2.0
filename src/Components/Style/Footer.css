@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: clamp(0px, 0.5vw + 5px, 15px);
+}
+
+@media only screen and (max-width: 700px){
+    .footer{
+        display: flex;
+        flex-flow: unset;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .rightSide,
+    .center,
+    .leftSide {
+        padding: 10px 0px;
+    }
+
+}
+
+.rightSide p{
+    display:flex;
+    flex-direction: row;
+}
+
+.rightSide img{
+    height:25px;
+    width: 25px;
+}
+

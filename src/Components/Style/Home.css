@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    min-height: 100svh;
+    position: relative;
+}
+
+.big-box{
+    background-color: rgb(30 41 59);
+    padding: 13rem 0 6rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-box{
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.letter{
+    background:transparent;
+    font-weight: 800;
+    letter-spacing: 6px;
+    font-family: 'Rajdhani', sans-serif;
+    transition: all 3s ease-out;
+}
+
+.letter:hover{
+    transition: all .2s ease-out;
+    color: white;
+    text-shadow: 0 0 .7rem cyan ;
+}
+
+.r,
+.f{
+    font-size: clamp(4.7rem, 7.7vw + 1rem, 9.7rem);
+}
+
+.b,
+.letter-i,
+.n{
+    font-size: clamp(3.7rem, 6.7vw + 1rem, 7.7rem);
+}
+
+.o,
+.e{
+    font-size: clamp(2.7rem, 5.7vw + 1rem, 6.7rem);   
+}
+
+.r2,
+.s{
+    font-size: clamp(1.7rem, 4.7vw + 1rem, 5.7rem);   
+}
+
+.d{
+    font-size: clamp(0.7rem, 3.7vw + 1rem, 4.7rem);   
+}
+
+
+.version-box{
+    padding-left: 25px;
+    font-size: 9.7rem;
+    transition: all .3s ease-out;
+    color: transparent;
+    color:rgb(30 41 59);
+    text-shadow: 0 0 .7rem magenta;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.version-box:hover{
+    color:white;
+    text-shadow: 0 0 .7rem magenta;
+    transition: all .2s ease-out;
+}
+
+@media only screen and (max-width: 700px){
+    .big-box{
+    flex-direction: column;
+    }
+    .letter{
+        transition: none;
+        color: white;
+        text-shadow: 0 0 .7rem cyan ;
+    }
+}
