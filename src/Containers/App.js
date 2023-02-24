@@ -24,7 +24,7 @@ class App extends Component {
         <HelmetProvider>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home greeting={'Hello React Ninja'}/>} />
+          <Route path="/Rf2.0" exact element={<Home greeting={'Hello React Ninja'}/>} />
           <Route path="/searchrobots" element={<SearchEngine />} />
           <Route path="/about" element={<About />} />
         </Routes>

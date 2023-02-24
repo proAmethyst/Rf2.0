@@ -13,7 +13,7 @@ render () {
                 <div className="buttons-box">
                     <ul className="nav-btns">
                         <li>
-                            <Link to="/" className="nav-btn block text-gray-400">Home</Link>
+                            <Link to="/Rf2.0" className="nav-btn block text-gray-400">Home</Link>
                         </li>
                         <li>
                             <Link to="/searchrobots" className="nav-btn block text-gray-400">Search Robots</Link>
